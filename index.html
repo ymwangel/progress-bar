@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>圆环进度条</title>
+  <link rel="stylesheet" href="./index.css">
+  </style>
+</head>
+<body>
+  <div id="con"></div>
+  <script src="./index.js"></script>
+  <script>
+    var a = new CircularScrollBar({
+      container: 'con',
+      value: '100',
+      valueColor: 'red',
+      color: '#316ccb',
+      backColor: '#ccc',
+      radius: '200'
+    })
+    a.init()
+  </script>
+</body>
+</html>
