@@ -8,3 +8,15 @@ valueColor: '百分比值的颜色'
 color: '进度条颜色',
 backColor: '进度条背景颜色',
 radius: '圆环最外圆半径'
+
+使用实例：
+  
+  import { CircularScrollBar } from 'CircularScrollBar';
+  new CircularScrollBar({
+    container: 'con',
+    value: '100',
+    valueColor: 'red',
+    color: '#316ccb',
+    backColor: '#ccc',
+    radius: '200'
+  }).init()
